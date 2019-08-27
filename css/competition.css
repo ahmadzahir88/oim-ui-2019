@@ -1,0 +1,52 @@
+.competition-container{
+  width: 250px;
+  height: 212px;
+  border-radius: 0 0 0 30px;
+  display: inline-block;
+  float: left;
+  margin: 20px;
+  position: relative;
+  box-shadow: 4px 4px 10px 0px #b9b9b9;
+}
+
+.pkm{
+  background: #c4ffed;
+}
+
+.non-pkm{
+  background: #fdc4ff;
+}
+
+.competition-title{
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  border-radius: 0 0 0 30px;
+  background: white;
+  height: 32%;
+  width: calc( 100% - 30px );
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+}
+
+.competition-button{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  float: right;
+  text-align: center;
+  cursor: pointer;
+}
+
+.arrow{
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+}
+
+.judul{
+  font-size = 2em;
+}

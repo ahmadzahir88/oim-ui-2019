@@ -1,0 +1,18 @@
+# main{
+  text-align: center;
+}
+.gallery-image{
+  margin: 9px 22px;
+  cursor: pointer;
+}
+
+.gallery-image img{
+  max-width: 298px;
+  max-height: 224px;
+  object-fit: cover;
+}
+
+.gallery-image:hover img{
+  transform: scale(1.05);
+  transform: translate(5px, 5px);
+}
