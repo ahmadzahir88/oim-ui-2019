@@ -20,10 +20,10 @@
 						<img alt="OIM UI 2019" src="img/icon_center.png">
 				</div>
 				<ul>
-					<li class="nav-left"><a id="active-page" href="#">Home</a></li>
-					<li class="nav-left"><a href="#">About Us</a></li>
-					<li class="nav-right"><a href="#">Gallery</a></li>
-					<li class="nav-right"><a href="#">Competitions</a></li>
+					<li class="nav-left"><a id="active-page" href="index.php">Home</a></li>
+					<li class="nav-left"><a href="about-us.php">About Us</a></li>
+					<li class="nav-right"><a href="gallery.php">Gallery</a></li>
+					<li class="nav-right"><a href="competition.php">Competitions</a></li>
 				</ul>
 			</nav>
 			<section id="title">
@@ -101,7 +101,7 @@
 			<h4 style="font-weight: lighter; margin-top:0; ">Kumpulkan berkasmu disini</h4>
 			<button class="yellow-button" id="popupTrigger" style="margin-bottom: 30px;">Kumpulkan Berkas <strong>></strong></button>
 		</section>
-		<div id="submitPopup">
+		<div id="popup">
 			<!-- Modal content -->
 			<div id="submissionForm">
 			  <div id="theForm">
@@ -163,31 +163,36 @@
 		</div>
 			<footer style="background-color: black; overflow: hidden; border-top: 5px solid yellow;">
 			<div style="margin: auto 8%;">
-			<div id="sitemap-container">
-					<div class="sitemap-link">
-						<h4>Sitemap</h4>
-						<a>Home</a><br/>
-						<a>About Us</a> <br/>
-						<a>Competitions</a> <br/>
-						<a>Gallery</a> <br/>
-					</div>
-					<div class="sitemap-link">
-						<h4>About OIM UI</h4>
-						<a>Tentang OIM UI</a><br/>
-						<a>Struktur Kepengurusan</a> <br/>
-						<a>Maskot OIM UI 2019</a> <br/>
-					</div>
-					<div class="sitemap-link">
-						<h4>Competitions</h4>
-						<a>PKM</a><br/>
-						<a>Non-PKM</a> <br/>
-					</div>
-					<div id="social-media">
-						<h4>Find Us on Social Media!</h4>
-					</div>
-					<div style="clear:both; width:0;">
-					</div>
-			</div>
+				<div id="sitemap-container">
+						<div class="sitemap-link">
+							<h4>Sitemap</h4>
+							<a href="index.php">Home</a><br/>
+							<a href="about-us.php">About Us</a> <br/>
+							<a href="competition.php">Competitions</a> <br/>
+							<a href="gallery.php">Gallery</a> <br/>
+						</div>
+						<div class="sitemap-link">
+							<h4>About OIM UI</h4>
+							<a href="about-us.php#tentang">Tentang OIM UI</a><br/>
+							<a href="about-us.php#struktur">Struktur Kepengurusan</a> <br/>
+							<a href="about-us.php#maskot">Maskot OIM UI 2019</a> <br/>
+						</div>
+						<div class="sitemap-link">
+							<h4>Competitions</h4>
+							<a href ="competition.php#pkm">PKM</a><br/>
+							<a href ="competition.php#nonpkm">Non-PKM</a> <br/>
+						</div>
+						<div id="social-media">
+							<h4>Find Us on Social Media!</h4>
+							<a href="https://twitter.com/ui_oim/">Twitter</a><br />
+							<a href="https://www.instagram.com/oim_ui/">Instagram</a><br />
+						</div>
+						<div style="clear:both; width:0;">
+						</div>
+				</div>
+						<div style="clear:both; width:0;">
+						</div>
+				</div>
 			<div class="vertical-divider">
 				</div>
 			<div id="bem-ui" style="text-align: center;">

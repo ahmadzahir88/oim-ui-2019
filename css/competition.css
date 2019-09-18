@@ -7,8 +7,14 @@
   margin: 20px;
   position: relative;
   box-shadow: 4px 4px 10px 0px #b9b9b9;
+  text-align: center;
 }
 
+.competition-container img{
+  height: 50%;
+  display: inline-block;
+  margin: auto;
+}
 .pkm{
   background: #c4ffed;
 }
@@ -28,6 +34,7 @@
   padding-left: 15px;
   padding-right: 15px;
   font-size: 20px;
+  text-align: left;
 }
 
 .competition-button{
@@ -49,4 +56,8 @@
 
 .judul{
   font-size = 2em;
+}
+
+#main{
+  text-align: left;
 }
